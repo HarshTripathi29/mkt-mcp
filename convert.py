@@ -8,8 +8,8 @@ from mcp import ClientSession
 from langgraph.prebuilt import create_react_agent
 
 # Set Azure OpenAI environment variables
-os.environ["AZURE_OPENAI_ENDPOINT"] = "https://genaipocllmopenai.openai.azure.com/"
-os.environ["AZURE_OPENAI_API_KEY"] = "86b4802d401d4716ac7b1da620c77b14"
+os.environ["AZURE_OPENAI_ENDPOINT"] = ""
+os.environ["AZURE_OPENAI_API_KEY"] = ""
 
 # Initialize the model
 model = AzureChatOpenAI(
