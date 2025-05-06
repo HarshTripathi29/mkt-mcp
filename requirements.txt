@@ -1,0 +1,20 @@
+# Core web framework
+fastapi
+uvicorn[standard]
+
+# LangChain + LangGraph core dependencies
+langchain
+langgraph
+
+# Azure OpenAI LLM support
+langchain-openai
+
+# MCP (markitdown tools, from GitHub)
+# git+https://github.com/langchain-ai/langgraph.git#subdirectory=libs/mcp
+mcp
+
+# PDF processing (if needed later)
+PyMuPDF  # or pdfplumber / PyPDF2 if you extract text
+
+# For temporary file handling (usually stdlib, but include just in case)
+aiofiles
